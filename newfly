@@ -34,7 +34,7 @@ local function u2()
 	end
 	return v12.unit
 end
-local Flymoving = script.Flymoving
+local Flymoving = Insance.new("BoolValue",game.Players.LocalPlayer)
 local TweenService = game:GetService("TweenService")
 local UIS = game:GetService("UserInputService")
 local Flying = false
